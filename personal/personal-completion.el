@@ -51,14 +51,6 @@
 ;; (setq ac-ignore-case nil)
 ;; (ac-flyspell-workaround)
 
-;; ;;; set the trigger key so that it can work together with yasnippet on tab key,
-;; ;;; if the word exists in yasnippet, pressing tab will cause yasnippet to
-;; ;;; activate, otherwise, auto-complete will
-;; ;;http://truongtx.me/2013/01/06/config-yasnippet-and-autocomplete-on-emacs/
-;; (ac-set-trigger-key "TAB")
-;; (ac-set-trigger-key "<tab>")
-
-
 (ido-vertical-mode 1)
 ;;face config like abo-abo
 (setq ido-vertical-show-count t)

@@ -4,7 +4,6 @@
                             monokai-theme
                             use-package
                             ws-butler
-                            popwin
                             ))
 
 ;; config emacs theme
@@ -121,10 +120,6 @@
 (diminish 'company-mode)
 (eval-after-load "flyspell"
   '(diminish 'flyspell-mode))
-
-;; Get ride of special buffers
-(use-package popwin)
-(popwin-mode 1)
 
 (setq prelude-clean-whitespace-on-save nil)
 ;; get ride of trailing-whitespace on some mode

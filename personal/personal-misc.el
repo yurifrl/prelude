@@ -34,16 +34,6 @@
 (add-hook 'ediff-after-quit-hook-internal 'winner-undo)
 
 
-(defun terminal ()
-  "Switch to terminal. Launch if nonexistent."
-  (interactive)
-  (if (get-buffer "*ansi-term*")
-      (switch-to-buffer "*ansi-term*")
-    (ansi-term "/bin/zsh"))
-  (get-buffer-process "*ansi-term*"))
-
-(defalias 'tt 'terminal)
-
 ;; redefine recenter
 
 

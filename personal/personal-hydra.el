@@ -293,7 +293,6 @@ Switch mode:
   ("s" flyspell-mode "flyspell")
   ("l" linum-mode "linum")
   ("L" relative-line-numbers-mode "Relative linum")
-  ("p" yas-minor-mode "Yasnippet")
   ("w" ws-butler-mode "ws-butler")
   ("q" nil nil :color blue))
 (global-set-key (kbd "<f2>") 'hydra-mode-switch/body)
